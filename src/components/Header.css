@@ -1,0 +1,8 @@
+#header {
+  background-color: crimson;
+  height: 100px;
+  color: white;
+}
+#header h1 {
+  padding: 30px 0 0 20px;
+}

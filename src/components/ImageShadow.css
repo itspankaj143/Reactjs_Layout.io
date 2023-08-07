@@ -1,0 +1,24 @@
+#image {
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 300px;
+  /* box-shadow: 10px 10px 20px black; */
+  filter: drop-shadow(10px 10px 20px black);
+}
+#box {
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 380px;
+  width: 300px;
+  background-color: aqua;
+  overflow: hidden;
+}
+#box #hoverImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+#box:hover #hoverImage {
+  scale: 1.2;
+}

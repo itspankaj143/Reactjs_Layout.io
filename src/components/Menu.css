@@ -1,0 +1,18 @@
+#menu {
+  background-color: lightsalmon;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 22.4px;
+}
+#menu li a:hover {
+  background-color: crimson;
+  color: white;
+}

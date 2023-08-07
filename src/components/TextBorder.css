@@ -1,0 +1,11 @@
+h2 {
+  font-size: 90px;
+  font-weight: 500;
+  -webkit-text-stroke: 4px #000;
+  color: transparent;
+  background-color: gray;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px gray;
+  padding-left: 10px;
+}
